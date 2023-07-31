@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.headerContainer {
+  margin-top: 72px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.activity {
+  color: #2b2b35;
+  font-family: Lexend Deca;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -1.44px;
+  text-transform: uppercase;
+}
+
+.subHeading {
+  color: #2b2b35;
+  font-family: Lexend Deca;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 24px;
+  letter-spacing: -0.48px;
+  text-transform: uppercase;
+}
+
+.explore {
+  margin-top: 40px;
+  width: 249px;
+  height: 60px;
+  flex-shrink: 0;
+  background-color: #d93a31;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: 0;
+}
+
+.buttonText {
+  color: #fff;
+  text-align: center;
+  font-family: Lexend Deca;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100px; /* 714.286% */
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+}
+
+.buttonIcon {
+  width: 43.888px;
+  flex-shrink: 0;
+  margin-left: 24px;
+}
+
+.text {
+  color: #2b2b35;
+  font-family: Lexend Deca;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 166.667% */
+  margin-top: 14px;
+}
+
+.analytics {
+  display: flex;
+  gap: 91px;
+  margin-top: 48px;
+}
+
+.topText {
+  color: #2b2b35;
+  font-family: Lexend Deca;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-left: 6px;
+}
+
+.count {
+  color: #2b2b35;
+  font-family: Lexend Deca;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -1.6px;
+  text-transform: uppercase;
+}
+
+.product {
+  color: #2b2b35;
+  font-family: Lexend Deca;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 214.286% */
+  text-transform: uppercase;
+  margin-left: 6px;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.priceContainer {
+  height: 80px;
+  position: absolute;
+  top: 72px;
+  right: 93px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.price {
+  color: #9497a8;
+  font-family: Lexend Deca;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: -0.4px;
+  text-transform: uppercase;
+}
+
+.priceValue {
+  color: #000;
+  font-family: Lexend Deca;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: -0.4px;
+  text-transform: uppercase;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 295px;
+}
+
+.image1 {
+  width: 334.5px;
+  height: 666.977px;
+  margin-bottom: -4px;
+}
+
+.image2 {
+  width: 334px;
+  height: 334px;
+  flex-shrink: 0;
+  margin-bottom: -160px;
+  z-index: 1;
+}
+
+.image3 {
+  width: 334px;
+  height: 339px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2b2b35;
+}
+
+.footer {
+  height: 156px;
+  background-color: #2b2b35;
+  display: flex;
+  align-items: center;
+  z-index: 0;
+}
+
+.footerItem {
+  margin-right: 119px;
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.textContainer {
+  margin-left: 20px;
+}
+
+.footerText {
+  color: #b5b5c2;
+  font-family: Lexend Deca;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 100% */
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+}
+
+.number {
+  color: #fff;
+  font-family: Lexend Deca;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.48px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 200px) and (max-width: 568px) {
+  .main {
+    display: block;
+  }
+  .activity {
+    padding-right: 120px;
+  }
+  .priceContainer {
+    position: absolute;
+    top: 4px;
+    right: 20px;
+  }
+
+  .headerContainer {
+    margin-top: 8px;
+    margin-left: 19px;
+  }
+
+  .explore {
+    margin-top: 4px;
+  }
+  .image1 {
+    width: 201px;
+    height: 404px;
+  }
+  .image2 {
+    width: 213px;
+    height: 210px;
+    margin-bottom: -4px;
+  }
+  .image3 {
+    width: 213px;
+    height: 215px;
+  }
+  .footer {
+    width: 100vw;
+  }
+
+  .activity {
+    color: #2b2b35;
+    font-family: Lexend Deca;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+  }
+
+  .subHeading {
+    margin-top: 24px;
+    color: #2b2b35;
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.32px;
+    text-transform: uppercase;
+    line-height: 20px;
+  }
+
+  .footer {
+    height: 101px;
+    flex-shrink: 0;
+  }
+  .footerItem {
+    margin-right: 20px;
+    margin-left: 31px;
+  }
+
+  .footerItem img {
+    width: 42px;
+    height: 42px;
+  }
+
+  .number {
+    color: #fff;
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.32px;
+    text-transform: uppercase;
+  }
+  .footerText {
+    color: #b5b5c2;
+    font-family: Lexend Deca;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 116.667% */
+    letter-spacing: -0.24px;
+    text-transform: uppercase;
+  }
+
+  .analytics {
+    display: flex;
+    gap: 30px;
+    margin-top: 48px;
+  }
+
+  .count {
+    color: #2b2b35;
+    font-family: Lexend Deca;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100px; /* 312.5% */
+    letter-spacing: -0.64px;
+    text-transform: uppercase;
+  }
+
+  .imageContainer {
+    margin-top: 24px;
+  }
+}
